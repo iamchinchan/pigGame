@@ -76,6 +76,7 @@ const holdScore = function () {
   }
 };
 const newGame = function () {
+  currentScoreVal = 0;
   btnRoll.removeAttribute('disabled', '');
   btnHold.removeAttribute('disabled', '');
   // console.log('new game has started! play again yipee!');
